@@ -1,11 +1,6 @@
 .container-about {
   width: 70%;
-  height: 510px;
-  margin: 60px auto 0;
-}
-
-.container-about h2 {
-  font-size: 2rem;
+  margin: 60px auto;
 }
 
 .container-about h2 span {

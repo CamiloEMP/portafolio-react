@@ -1,6 +1,7 @@
 import { Header } from './components/Header/Header'
 import { About } from './components/About'
-import { Works } from './components/Works'
+import { Projects } from './components/Projects'
+import { Skills } from './components/Skills'
 
 function App () {
   const MainStyle = {
@@ -13,7 +14,8 @@ function App () {
       <Header />
       <main style={MainStyle}>
         <About />
-        <Works />
+        <Projects />
+        <Skills />
       </main>
     </>
   )

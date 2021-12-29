@@ -1,0 +1,28 @@
+.card-container {
+  width: 350px;
+  height: 300px;
+}
+
+.card-container .card-title {
+  color: #08fdd8;
+  border-bottom: 1px solid #08fdd8;
+  padding: 0 0 10px 5px;
+  width: 300px;
+}
+
+.card-container img {
+  margin-top: 10px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.card-container .card-footer {
+  row-gap: 15px;
+}
+
+.card-container .card-footer svg {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #838181;
+}
