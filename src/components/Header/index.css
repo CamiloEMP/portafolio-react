@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 75px;
+  background-color: #181818;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  color: #838181;
+  font-size: 1.5rem;
+}
+
+header span {
+  padding: 8px 0 0 8px;
+  font-family: 'La Belle Aurore', cursive;
+}
+
+header .header-icon-menu {
+  width: 35px;
+  height: 35px;
+}
+
+header .header-icon-menu path {
+  stroke-width: 30px;
+}
+
+.icon-social-media:hover {
+  color: #08fdd8;
+}
+
+.nav-menu {
+  background-color: #181818;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: -200%;
+  width: 100%;
+  transition: 850ms ease;
+  height: 100vh;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+
+.nav-menu.active {
+  top: 75px;
+  transition: 850ms ease;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #d4dde4;
+}
+
+.nav-menu>a {
+  text-align: center;
+  width: 200px;
+  padding-bottom: 5px;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #d4dde4;
+}
+
+.container-icons-social-media {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+}
+
+.container-icons-social-media>a {
+  font-size: 1.8rem;
+}

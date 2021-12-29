@@ -1,0 +1,45 @@
+.container-about {
+  width: 70%;
+  height: 510px;
+  margin: 60px auto 0;
+}
+
+.container-about h2 {
+  font-size: 2rem;
+}
+
+.container-about h2 span {
+  color: #08fdd8;
+}
+
+.container-about>p {
+  margin-top: 10px;
+  color: #838181;
+}
+
+.container-about .about-contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.container-about .about-contact-container p {
+  font-size: 1.2rem;
+}
+
+.container-about .about-contact-container .about-to-button,
+.about-to-contact {
+  border: 1px solid #08fdd8;
+  border-radius: 4px;
+  padding: 8px;
+  width: 160px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.container-about .about-contact-container .about-to-button {
+  color: #fff;
+  background-color: inherit;
+  font-family: inherit;
+}
