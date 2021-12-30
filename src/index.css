@@ -8,6 +8,10 @@ body {
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,10 +19,95 @@ body {
 }
 
 h2 {
-  font-size: 2rem;  
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.about-to-contact {
+  text-decoration: none;
+  color: #fff;
+}
+
+.style-button, .about-to-contact {
+  border: 1px solid #08fdd8;
+  border-radius: 4px;
+  padding: 8px;
+  width: 160px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.style-button {
+  color: #fff;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+@media (min-width: 790px) {
+
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    padding-top: 60px;
+  }
+
+  .container-about > P{
+    text-align: center;
+  }
+
+  .about-contact-container {
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .container-about .about-contact-container div:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .projects-container {
+    text-align: center;
+  }
+
+  .container-cards-projects{
+    justify-content: center;
+  }
+
+  .section-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .container-skills{
+    width: 900px;
+    justify-content: center;
+  }
+
+  .section-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 790px) {
+  .effect-hover:hover {
+    transition: 400ms;
+    background-color: #08fdd8;
+    color: #1d1d1d;
+
+  } 
 }

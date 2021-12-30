@@ -8,6 +8,7 @@
   border-bottom: 1px solid #08fdd8;
   padding: 0 0 10px 5px;
   width: 300px;
+  display: inline-block;
 }
 
 .card-container img {

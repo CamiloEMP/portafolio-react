@@ -15,7 +15,7 @@ export const Header = () => {
         </div>
         <IoMenu onClick={showSidebar} className='header-icon-menu' />
       </header>
-      <MenuMobile sidebar={sidebar} />
+      <MenuMobile sidebar={sidebar} setSidebar={setSidebar} />
     </>
   )
 }

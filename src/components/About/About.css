@@ -1,6 +1,6 @@
 .container-about {
-  width: 70%;
-  margin: 60px auto;
+  width: 90%;
+  margin: 30px auto;
 }
 
 .container-about h2 span {
@@ -23,18 +23,8 @@
   font-size: 1.2rem;
 }
 
-.container-about .about-contact-container .about-to-button,
-.about-to-contact {
-  border: 1px solid #08fdd8;
-  border-radius: 4px;
-  padding: 8px;
-  width: 160px;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.container-about .about-contact-container .about-to-button {
-  color: #fff;
-  background-color: inherit;
-  font-family: inherit;
+.about-contact-container > div{
+  display: flex;
+      flex-direction: column;
+      gap: 15px;
 }

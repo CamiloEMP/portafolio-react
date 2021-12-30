@@ -16,7 +16,7 @@ export const Projects = () => {
     react: <IoLogoReact fill='#00d8ff' />
   }
   return (
-    <section className='projects-container'>
+    <section id="projects" className='projects-container'>
       <h2>Portafolio</h2>
       <article className='container-cards-projects'>
         <CardProject
@@ -25,6 +25,7 @@ export const Projects = () => {
           alt='Imagen de rick y morty'
           technolgys={icons}
           dictionary={['js', 'css', 'html']}
+          key={1}
         />
         <CardProject
           title='Todo App'
@@ -32,6 +33,7 @@ export const Projects = () => {
           alt='Imagen de rick y morty'
           technolgys={icons}
           dictionary={['js', 'html', 'css']}
+          key={2}
         />
         <CardProject
           title='Api de algo'
@@ -39,6 +41,15 @@ export const Projects = () => {
           alt='Imagen de rick y morty'
           technolgys={icons}
           dictionary={['html', 'react', 'css']}
+          key={3}
+        />
+        <CardProject
+          title='Api de algo'
+          img={lobo}
+          alt='Imagen de rick y morty'
+          technolgys={icons}
+          dictionary={['html', 'react', 'css']}
+          key={4}
         />
       </article>
     </section>
