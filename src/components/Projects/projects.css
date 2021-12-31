@@ -1,5 +1,5 @@
 .projects-container {
-  width: 90%;
+  width: 95%;
   margin: 30px auto;
 }
 
@@ -8,6 +8,5 @@
 }
 
 .projects-container .container-cards-projects {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
 }

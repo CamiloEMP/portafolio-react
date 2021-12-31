@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 50px;
   height: 75px;
   background-color: #181818;
 }
@@ -15,7 +15,7 @@ header {
 header div {
   display: flex;
   align-items: center;
-  color: #838181;
+  color: #c1c1c1;
   font-size: 1.5rem;
 }
 
@@ -29,40 +29,37 @@ header .header-icon-menu {
   height: 35px;
 }
 
-header .header-icon-menu path {
+header .IoMenu path {
   stroke-width: 30px;
 }
 
-.icon-social-media:hover {
-  color: #08fdd8;
-}
-
-.nav-menu {
+/*Styles mobile*/
+.nav-menu-mobile {
   background-color: #181818;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  top: -200%;
+  bottom: -200%;
   width: 100%;
   transition: 850ms ease;
-  height: 100vh;
+  height: 92vh;
   z-index: 1;
   padding-bottom: 20px;
 }
 
-.nav-menu.active {
-  top: 75px;
+.nav-menu-mobile.active {
+  bottom: 0px;
   transition: 850ms ease;
 }
 
-.nav-menu a {
+.nav-menu-mobile a {
   text-decoration: none;
   color: #d4dde4;
 }
 
-.nav-menu>a {
+.nav-menu-mobile>a {
   text-align: center;
   width: 200px;
   padding-bottom: 5px;
@@ -78,4 +75,26 @@ header .header-icon-menu path {
 
 .container-icons-social-media>a {
   font-size: 1.8rem;
+}
+
+.container-icons-social-media svg {
+  font-size: 2.5rem;
+}
+
+/*Styles desktop*/
+
+.nav-menu-desktop {
+  display: none;
+  column-gap: 25px;
+}
+
+.nav-menu-desktop > a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-menu-desktop > a:hover {
+  color: #08fdd8;
+  text-decoration: underline;
 }

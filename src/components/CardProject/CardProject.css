@@ -1,24 +1,29 @@
 .card-container {
-  width: 350px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 .card-container .card-title {
   color: #08fdd8;
   border-bottom: 1px solid #08fdd8;
   padding: 0 0 10px 5px;
-  width: 300px;
+  min-width: 350px;
   display: inline-block;
 }
 
-.card-container img {
+.card-container .card-img {
   margin-top: 10px;
-  width: 300px;
+  width: 350px;
+  height: 250px;
   border-radius: 8px;
 }
 
 .card-container .card-footer {
   row-gap: 15px;
+}
+
+.card-footer > div {
+  display: inline;
 }
 
 .card-container .card-footer svg {

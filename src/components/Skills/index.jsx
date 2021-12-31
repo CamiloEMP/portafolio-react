@@ -1,29 +1,17 @@
 import './skills.css'
-
-import {
-  IoLogoJavascript,
-  IoLogoReact,
-  IoLogoGithub,
-  IoTerminal,
-  IoLogoSass,
-  IoLogoNpm
-} from 'react-icons/io5'
-import { iconHTML } from '../../assets/icons/html'
-import { iconCSS } from '../../assets/icons/css'
+import { IconsLenguages } from '../utils/IconsTech'
 
 export const Skills = () => {
+  const iconsSkills = Object.values(IconsLenguages).map((icon, index) => (
+    <div key={index}>
+      {icon}
+    </div>
+  ))
   return (
     <section id="skills" className='section-skills'>
       <h2>Skills</h2>
       <div className='container-skills'>
-        <IoLogoReact fill='#00d8ff'/>
-        <IoLogoJavascript fill="#f7df1e"/>
-        {iconHTML}
-        {iconCSS}
-        <IoLogoGithub/>
-        <IoTerminal fill='#838181'/>
-        <IoLogoSass fill='#c36291'/>
-        <IoLogoNpm fill='#c23535' />
+        {iconsSkills}
       </div>
     </section>
   )

@@ -1,12 +1,13 @@
 .section-contact {
   width: 90%;
-  margin: 0 auto 60px;
+  margin: 30px auto;
   height: 600px;
 }
 
 .section-contact form {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .section-contact form label {
@@ -51,12 +52,12 @@
   font-size: 1.1rem;
   overflow: auto;
   min-height: 150px;
-  max-width: 625px;
+  max-height: 270px;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
-form div:last-child {
+form .container-button-contact{
   width: 100%;
   text-align: center;
 }

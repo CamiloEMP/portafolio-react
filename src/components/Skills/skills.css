@@ -1,6 +1,6 @@
 .section-skills {
   width: 90%;
-  height: 240px;
+  min-height: 240px;
   margin: 30px auto 0;
 }
 

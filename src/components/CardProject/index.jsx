@@ -14,10 +14,14 @@ export const CardProject = ({ img, alt, title, technolgys, dictionary }) => {
     <section className='card-container'>
       <h3 className='card-title'>{title}</h3>
       <a href="">
-        <img src={img} alt={alt} />
+        <img className='card-img' src={img} alt={alt} />
       </a>
       <footer className='card-footer'>
-        {arrayIcons.map(item => item)}
+        {arrayIcons.map((item, index) => (
+          <div key={index}>
+            {item}
+          </div>
+        ))}
       </footer>
     </section>
   )
