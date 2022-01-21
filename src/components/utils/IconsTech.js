@@ -4,13 +4,13 @@ import {
   IoLogoJavascript,
   IoLogoReact,
   IoLogoGithub,
-  IoTerminal,
   IoLogoSass,
-  IoLogoNpm,
   IoLogoNodejs,
   IoLogoLinkedin,
   IoLogoInstagram
 } from 'react-icons/io5'
+
+import { SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
 
 import { iconHTML } from '../../assets/icons/html'
 import { iconCSS } from '../../assets/icons/css'
@@ -21,15 +21,15 @@ export const IconsMessageContact = {
 }
 
 export const IconsLenguages = {
-  js: <IoLogoJavascript fill="#f7df1a"/>,
-  html: iconHTML,
-  css: iconCSS,
-  react: <IoLogoReact fill='#00d8ff'/>,
-  node: <IoLogoNodejs fill='#82c429'/>,
-  npm: <IoLogoNpm fill='#c23535'/>,
-  git: <IoLogoGithub/>,
-  sass: <IoLogoSass fill='#c36291'/>,
-  terminal: <IoTerminal fill='#838181'/>
+  JavaScript: <IoLogoJavascript fill="#f7df1a"/>,
+  HTML5: iconHTML,
+  CSS: iconCSS,
+  ReactJS: <IoLogoReact fill='#00d8ff'/>,
+  NextJS: <SiNextdotjs fill='#fff'/>,
+  NodeJS: <IoLogoNodejs fill='#82c429'/>,
+  'StyledComp.': <SiStyledcomponents fill='#fff' />,
+  SCSS: <IoLogoSass fill='#c36291'/>,
+  Tailwind: <SiTailwindcss fill='#01b7d6'/>
 }
 
 export const IconsSocialMedia = (

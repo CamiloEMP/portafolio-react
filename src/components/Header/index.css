@@ -27,6 +27,7 @@ header span {
 header .header-icon-menu {
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 
 header .IoMenu path {
@@ -44,7 +45,7 @@ header .IoMenu path {
   bottom: -200%;
   width: 100%;
   transition: 850ms ease;
-  height: 92vh;
+  height: 91.8%;
   z-index: 1;
   padding-bottom: 20px;
 }

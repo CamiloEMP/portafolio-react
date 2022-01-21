@@ -2,6 +2,7 @@
   width: 90%;
   margin: 30px auto;
   height: 600px;
+  text-align: center;
 }
 
 .section-contact form {
@@ -22,7 +23,7 @@
 
 .section-contact form label .input-valid {
   width: 300px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-family: inherit;
   padding: 2px 5px;
   outline: none;
@@ -49,10 +50,10 @@
   font-family: inherit;
   width: 100% !important;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   overflow: auto;
-  min-height: 150px;
-  max-height: 270px;
+  min-height: 200px;
+  max-height: 230px;
   margin-top: 5px;
   margin-bottom: 20px;
 }

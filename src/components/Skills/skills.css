@@ -1,17 +1,20 @@
 .section-skills {
-  width: 90%;
-  min-height: 240px;
-  margin: 30px auto 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-skills {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 10px;
-  column-gap: 52px;
-  border-radius: 8px;
+  min-width: 320px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 60px;
   background-color: #181818;
-  padding: 15px;
+  padding: 10px;
 }
 
 .container-skills svg {
@@ -21,4 +24,11 @@
 .container-skills .icons-html-css {
   padding-top: 4px;
   width: 40px;
+}
+
+.container-skills-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
 }
