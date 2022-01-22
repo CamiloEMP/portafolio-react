@@ -40,7 +40,7 @@ export const IconsSocialMedia = (
     <a href="https://www.linkedin.com/in/camilo-mora/" target="_blank" rel="noreferrer">
       <IoLogoLinkedin className='icon-social-media' />
     </a>
-    <a href="https://www.instagram.com/kmilo_22_/" target="_blank" rel="noreferrer">
+    <a href="https://www.instagram.com/camilo___e/" target="_blank" rel="noreferrer">
       <IoLogoInstagram className='icon-social-media' />
     </a>
   </>
