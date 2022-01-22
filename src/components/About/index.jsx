@@ -11,7 +11,7 @@ export const About = () => {
         <img src="" alt="" />
         <div>
           <a href='#contact' className='about-to-contact effect-hover'>Contactame</a>
-          <a className='about-to-contact effect-hover' download='nada.pdf' href="/src/assets/hojaDeVida/hojadevida.pdf" >
+          <a className='about-to-contact effect-hover' download='hoja-de-vida-Camilo-Mora.pdf' href="/src/assets/hojaDeVida/hojadevida.pdf" >
             Descarga mi CV
           </a>
         </div>
