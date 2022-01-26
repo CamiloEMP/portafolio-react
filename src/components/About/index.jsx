@@ -1,5 +1,7 @@
 import './About.css'
 import imagen from '../../assets/camilo-mora.jpeg'
+import pdf from '../../assets/hojadevida.pdf'
+
 export const About = () => {
   return (
     <section id="about" className='container-about'>
@@ -10,7 +12,7 @@ export const About = () => {
         <p>Si estas interesado en mi</p>
         <div>
           <a href='#contact' className='about-to-contact effect-hover'>Contactame</a>
-          <a className='about-to-contact effect-hover' download='hoja-de-vida-Camilo-Mora.pdf' href="/hojadevida.pdf" >
+          <a className='about-to-contact effect-hover' download='hoja-de-vida-Camilo-Mora.pdf' href={pdf} >
             Descarga mi CV
           </a>
         </div>
