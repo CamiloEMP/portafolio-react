@@ -1,6 +1,4 @@
 import { CardProject } from '../CardProject'
-import { IconsLenguages } from '../utils/IconsTech'
-
 import './projects.css'
 
 export const Projects = () => {
@@ -9,10 +7,16 @@ export const Projects = () => {
       <h2>Portafolio</h2>
       <article className="container-cards-projects">
         <CardProject
+          title="Frikie marvel"
+          img="https://i.imgur.com/uiXGkeV.png"
+          alt="Web Frikie Marvel by CamiloEMP"
+          dictionary={['ReactJS', 'ChakraUI']}
+          url='https://friki-marvel.vercel.app/'
+        />
+        <CardProject
           title="Busco Países"
           img="https://i.imgur.com/Ko9pKyL.png"
           alt="Web Busco Países CamiloEMP"
-          technolgys={IconsLenguages}
           dictionary={['Tailwind', 'ReactJS', 'JavaScript', 'HTML5']}
           url='https://busco-paises-camiloemp.vercel.app/'
         />
@@ -20,29 +24,17 @@ export const Projects = () => {
           title="Rick and Morty"
           img="https://i.imgur.com/EbL8U1l.png"
           alt="Web Rick and Morty CamiloEMP"
-          technolgys={IconsLenguages}
           dictionary={[
-            'HTML5',
             'ReactJS',
             'StyledComp.',
-            'NextJS',
-            'JavaScript'
+            'NextJS'
           ]}
           url='https://rick-morty-api-chi.vercel.app/'
-        />
-        <CardProject
-          title="Portafolio"
-          img="https://i.imgur.com/kFhjWAw.png"
-          alt="Web PortFolio CamiloEMP"
-          technolgys={IconsLenguages}
-          dictionary={['JavaScript', 'CSS', 'HTML5', 'ReactJS']}
-          url='#about'
         />
         <CardProject
           title="Busco Repositorio"
           img="https://i.imgur.com/RQ8Viyd.png"
           alt="Imagen de rick y morty"
-          technolgys={IconsLenguages}
           dictionary={['JavaScript', 'HTML5', 'CSS']}
           url='https://busco-repo-camiloemp.vercel.app/'
         />
@@ -50,7 +42,6 @@ export const Projects = () => {
           title="Todo App"
           img="https://i.imgur.com/UMr9fGg.png"
           alt="Imagen de rick y morty"
-          technolgys={IconsLenguages}
           dictionary={['JavaScript', 'CSS', 'HTML5', 'ReactJS']}
           url='https://camiloemp.github.io/TODOs-App-React/'
         />
@@ -58,7 +49,6 @@ export const Projects = () => {
           title="Landing page Lego"
           img="https://i.imgur.com/04nNEt1.png"
           alt="Imagen de rick y morty"
-          technolgys={IconsLenguages}
           dictionary={['JavaScript', 'HTML5', 'SCSS']}
           url='https://camilo-lego-page-camiloemp.vercel.app/'
         />

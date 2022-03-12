@@ -1,10 +1,11 @@
+import { IconsLenguages } from '../utils/IconsTech'
 import './CardProject.css'
 
-export const CardProject = ({ img, alt, title, technolgys, dictionary, url }) => {
-  const filterIcon = Object.keys(technolgys)
+export const CardProject = ({ img, alt, title, dictionary, url }) => {
+  const filterIcon = Object.keys(IconsLenguages)
     .filter(key => dictionary.includes(key))
     .reduce((obj, key) => {
-      obj[key] = technolgys[key]
+      obj[key] = IconsLenguages[key]
       return obj
     }, {})
 

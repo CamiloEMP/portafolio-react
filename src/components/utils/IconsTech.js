@@ -9,8 +9,7 @@ import {
   IoLogoLinkedin,
   IoLogoInstagram
 } from 'react-icons/io5'
-
-import { SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
+import { SiChakraui, SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'react-icons/si'
 
 import { iconHTML } from '../../assets/icons/html'
 import { iconCSS } from '../../assets/icons/css'
@@ -29,7 +28,8 @@ export const IconsLenguages = {
   NodeJS: <IoLogoNodejs fill='#82c429'/>,
   'StyledComp.': <SiStyledcomponents fill='#fff' />,
   SCSS: <IoLogoSass fill='#c36291'/>,
-  Tailwind: <SiTailwindcss fill='#01b7d6'/>
+  Tailwind: <SiTailwindcss fill='#01b7d6'/>,
+  ChakraUI: <SiChakraui fill='#67c9cd'/>
 }
 
 export const IconsSocialMedia = (
