@@ -1,6 +1,6 @@
 import './About.css'
 import imagen from '../../assets/camilo-mora.jpeg'
-import pdf from '../../assets/hojadevida.pdf'
+import pdf from '../../assets/CV-Camilo_Mora.pdf'
 
 export const About = () => {
   return (

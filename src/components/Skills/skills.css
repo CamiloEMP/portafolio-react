@@ -1,16 +1,17 @@
 .section-skills {
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .container-skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 90%;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 1rem;
+  width: 100%;
   background-color: #181818;
   margin-bottom: 60px;
   padding: 18px;
@@ -30,4 +31,15 @@
   flex-direction: column;
   align-items: center;
   width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .section-skills {
+    width: 90%;
+  }
+
+  .container-skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

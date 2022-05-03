@@ -91,11 +91,6 @@ a {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
-  
-  .container-skills {
-    width: 600px;
-    padding: 30px 10px !important;
-  }
 
   .section-contact {
     display: flex;
@@ -127,10 +122,6 @@ a {
 
   .container-cards-projects {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .container-skills {
-    width: 700px;
   }
 
   .section-contact form {

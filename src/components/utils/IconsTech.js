@@ -13,6 +13,7 @@ import { SiChakraui, SiNextdotjs, SiTailwindcss, SiStyledcomponents } from 'reac
 
 import { iconHTML } from '../../assets/icons/html'
 import { iconCSS } from '../../assets/icons/css'
+import { iconTypesCript } from '../../assets/icons/typescript'
 
 export const IconsMessageContact = {
   success: <IoHappyOutline/>,
@@ -29,7 +30,9 @@ export const IconsLenguages = {
   'StyledComp.': <SiStyledcomponents fill='#fff' />,
   SCSS: <IoLogoSass fill='#c36291'/>,
   Tailwind: <SiTailwindcss fill='#01b7d6'/>,
-  ChakraUI: <SiChakraui fill='#67c9cd'/>
+  ChakraUI: <SiChakraui fill='#67c9cd'/>,
+  TypesCript: iconTypesCript,
+  GitHub: <IoLogoGithub />
 }
 
 export const IconsSocialMedia = (
